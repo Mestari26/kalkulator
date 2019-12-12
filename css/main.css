@@ -6,13 +6,13 @@
 body {
     background: #222;
     color: #EEEEEE;
-    font-size: 24px;
+    font-size: 18px;
     font-family: 'Kanit', sans-serif;
 }
 
 #form-div {
     width: 90vw;
-    min-height: 95vh;
+    height: 95vh;
     background: #333;
     position: absolute;
     top: 50%;
