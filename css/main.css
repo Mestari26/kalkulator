@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #222;
+    color: #EEEEEE;
+    font-size: 24px;
+    font-family: 'Kanit', sans-serif;
+}
+
+#form-div {
+    width: 90vw;
+    min-height: 95vh;
+    background: #333;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+}
+
+#form-div input[type="text"] {
+    font-size: 1em;
+    text-align: center;
+    padding: 0.5em 0;
+    background: none;
+    border: none;
+    border-bottom: 2px solid hsl(189, 66%, 52%);
+    color: white;
+    width: 25%;
+}
+
+#desc p {
+    font-weight: lighter;
+    text-align: center;
+    font-size: 0.8em;
+    opacity: 0.3;
+}
+
+#desc h2 {
+    text-align: center;
+    margin-top: 1em;
+    font-weight: lighter;
+}
+
+#input_table {
+    margin-top: 2em;
+}
+
+#results_table {
+    margin-top: 4em;
+}
+
+div.row {
+    width: 90%;
+    margin: 1em auto;
+}
+
+div.row div {
+    display: inline-block;
+}
+
+div.row .head_tab {
+    font-size: 1.3em;
+    width: 10%;
+    text-align: center;
+}
+
+.unit_tab {
+    opacity: 0.3;
+    width: 10%;
+    text-align: left;
+    font-weight: lighter;
+}
+
+.kcal_value {
+    width: 35%;
+    text-align: right;
+}
+
+.row_header {
+    width: 15%;
+}
+
+#total_kcal {
+    width: 17%;
+    text-align: right;
+}
+
+.exchangers div:nth-child(even) {
+    width: 17%;
+    text-align: right;
+}
+
+.exchangers div:nth-child(1) {
+    width: 15%;
+}
+
+.exchangers div:nth-child(3) {
+    width: 10%;
+}
+
+.exchangers div:nth-child(5) {
+    width: 3%;
+}
+
+.exchangers div:nth-child(7) {
+    width: 5%;
+}

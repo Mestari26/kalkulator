@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kalkulator kalorii, WW i WBT</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Kanit:100,200,400,600,700&display=swap&subset=latin-ext" rel="stylesheet">
+</head>
+<body>
+    <div id="form-div">
+        <div id="desc">
+            <h2>Kalkulator posiłku</h2>
+            <p>Wpisz makroskładniki posiłku.<br/>Ułamki zapisuj z kropką!</p>
+        </div>
+        <div id="input_table">
+            <div class="row">
+                <div class="head_tab">B</div>
+                <input type="text" name="protein_g" id="protein_g_textbox" placeholder="0">
+                <div class="unit_tab">g</div>
+                <div id="protein_kcal" class="kcal_value">0</div>
+                <div class="unit_tab">kcal</div>
+            </div>
+            <div class="row">
+                <div class="head_tab">T</div>
+                <input type="text" name="fat_g" id="fat_g_textbox" placeholder="0">
+                <div class="unit_tab">g</div>
+                <div id="fat_kcal" class="kcal_value">0</div>
+                <div class="unit_tab">kcal</div>
+            </div>
+            <div class="row">
+                <div class="head_tab">W</div>
+                <input type="text" name="carbo_g" id="carbo_g_textbox" placeholder="0">
+                <div class="unit_tab">g</div>
+                <div id="carbo_kcal" class="kcal_value">0</div>
+                <div class="unit_tab">kcal</div>
+            </div>
+        </div>
+        <div id="results_table">
+            <div class="row">
+                <div class="row_header">Suma</div>
+                <div id="total_kcal"></div>
+                <div class="unit_tab">kcal</div>
+            </div>
+            <div class="row exchangers">
+                <div>WBT</div>
+                <div id="wbt_kcal"></div>
+                <div class="unit_tab">kcal</div>
+                <div id="wbt"></div>
+                <div class="unit_tab"></div>
+                <div id="wbt_percentage"></div>
+                <div class="unit_tab">%</div>
+            </div>
+            <div class="row exchangers">
+                <div>WW</div>
+                <div id="ww_kcal"></div>
+                <div class="unit_tab">kcal</div>
+                <div id="ww"></div>
+                <div class="unit_tab"></div>
+                <div id="ww_percentage"></div>
+                <div class="unit_tab">%</div>
+            </div>
+        </div>
+            
+                
+    </div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
