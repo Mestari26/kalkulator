@@ -12,7 +12,7 @@ body {
 
 #form-div {
     width: 90vw;
-    height: 70vh;
+    height: 80vh;
     background: #333;
     position: absolute;
     top: 50%;
@@ -37,7 +37,6 @@ body {
     text-align: center;
     font-size: 0.9em;
     opacity: 0.5;
-    color: red;
 }
 
 #desc h2 {
