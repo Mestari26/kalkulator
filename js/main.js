@@ -23,7 +23,7 @@ let sumExchanger = () => {
 
 let countExchanger = () => {
     valueWbt.innerText = Math.round((parseFloat(kcalWbt.textContent))) / 100;
-    valueWw.innerText = Math.round((parseFloat(kcalWw.textContent))) / 100;
+    valueWw.innerText = Math.round((parseFloat(kcalWw.textContent))) / 40;
 }
 
 let countExchangerPercentage = () => {
