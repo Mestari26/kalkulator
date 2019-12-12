@@ -42,7 +42,7 @@ body {
 #desc h2 {
     text-align: center;
     margin-top: 1em;
-    font-weight: lighter;
+    font-weight: 400;
 }
 
 #input_table {
